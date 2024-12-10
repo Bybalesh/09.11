@@ -1,301 +1,227 @@
-# Headers
-
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-# Moving Logos
-  
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212281780-0afd9616-8310-46e9-a898-c4f5269f1387.gif" width="100">
-  
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/1a797f46-efe4-41e6-9e75-5303e1bbcbfa" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b757-4c70-8f42-43d5dddd2c36" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3fb2cdf6-8920-462e-87a4-95af376418aa" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="100">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/e0d299f2-767c-4c21-bd49-90f2a19f1a78" width="100">
-</div>
-<br><br> 
+1.  List item one.
 
-# Dropdown
+    List item one continued with a second paragraph followed by an
+    Indented block.
 
-<details><summary>A dropdown list for markdown</summary>
+        $ ls *.sh
+        $ mv *.sh ~/tmp
 
-   1. First item must be preceeded with an empty line.
-   1. Markdown renders **perfectly**.
-   1. Extra item.
+    List item continued with a third paragraph.
 
-</details>
+2.  List item two continued with an open block.
 
-------
+    This paragraph is part of the preceding list item.
 
-# Emoji
+    1. This list is nested and does not require explicit item continuation.
 
-@qashka2 :+1: This PR looks great - it's ready to merge! :-1:
+       This paragraph is part of the preceding list item.
 
-Alternatively, for H1 and H2, an underline-ish style:
+    2. List item b.
 
-Alt-H1
-======
+    This paragraph belongs to item two of the outer list.
 
-Alt-H2
-------
+Первый параграф
 
-# BIS
+Второй параграф
+Продолжение второго параграфа
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Перенос с помощью пробелов  
+Перенос с помощью обратного слеша\
+Перенос с помощью тега <br> Последняя строка
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+В синтаксисе Markdown есть шесть уровней заголовков: от H1 (самого большого) до H6 (самого маленького). Для их выделения используют решётки #, при этом есть несколько тонкостей:
 
-Combined emphasis with **asterisks and _underscores_**.
+# Заголовок первого уровня
+## Заголовок второго уровня ##
+### Заголовок третьего уровня
+#### Заголовок четвёртого уровня #
+##### Заголовок пятого уровня ############
+###### Заголовок шестого уровня
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+У заголовков первого и второго уровня есть альтернативный способ выделения: на следующей строке после них нужно поставить знаки равенства = или дефисы -. 
+Вот несколько правил:
 
-**This is bold text**
+Заголовок первого уровня
+=
+Заголовок первого уровня
+=========
+Заголовок второго уровня
+-
+Заголовок второго уровня
+----------
 
-__This is bold text__
+Выделение текста (emphasis)\
+Для выделения текста курсивом нужно использовать одну звёздочку * или нижнее подчёркивание _.\
+*Текст курсивом*\
+_Текст курсивом_\
 
-*This is italic text*
+Для выделения текста жирным нужно использовать две звёздочки ** или два нижних подчёркивания __.\
+**Жирный текст**\
+__Жирный текст__\
 
-_This is italic text_
+Для выделения текста сразу обоими стилями нужно использовать три звёздочки *** или три нижних подчёркивания ___.\
+***Текст жирным курсивом***\
+___Текст жирным курсивом___\
 
-~~Strikethrough~~
+Обратите внимание, что если вы хотите выделить фрагмент внутри слова, то это корректно сработает только при использовании звёздочек.\
+Кор*рек*тно, кор**рек**тно, кор***рек***тно\
+Некор_рек_тно, некор__рек__тно, некор___рек___тно\
 
-------
-# Lists
+Чтобы зачеркнуть текст, нужно использовать две тильды ~~. Такая опция есть только в диалекте GitHub Flavored Markdown.\
+~~Зачёркнутый текст~~\
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+В синтаксисе Markdown нет встроенного способа подчеркнуть текст. Но если ваш редактор поддерживает HTML, то можно использовать теги:\
+<u>Подчёркнутый текст</u>
 
-1. Make my changes
-    1. Fix bug
-        1. qwe
-    1. qwe
-        1. qwe
-            1. qwe
-            1. qwe
-                1. qwe
-    3. Improve formatting
-        - Make the headings bigger
-2. Push my commits to GitHub
-3. Open a pull request
-    * Describe my changes
-    * Mention all the members of my team
-        * Ask for feedback
+Если ваш редактор поддерживает HTML-теги, то для разметки можно также использовать тег <hr>
+***
+---
+___
+*	*  **
 
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
+Чтобы параграф отобразился как цитата, нужно поставить перед ним закрывающую угловую скобку >
+> # Заголовок
+> Первый параграф
+>
+> Второй параграф
+>
+> > Вложенная цитата
+> > > Цитата третьего уровня
+>
+> Продолжение основной цитаты
 
-------
+Списки (lists)\
+Нумерованные (ordered)
+Для создания нумерованного списка перед пунктами нужно поставить число с точкой. При этом нумерация в разметке ленивая. Неважно, какие именно числа вы напишете:(не работает)
+1. Первый пункт
+2. Второй пункт
+3. Третий пункт
 
-# Task lists
 
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [ ] this is a complete item
-- [ ] this is an incomplete item
+1. Первый пункт
+1. Второй пункт
+1. Третий пункт
 
-------
 
-# Ignoring Markdown formatting
+1. Первый пункт
+73. Второй пункт
+5. Третий пункт
 
-You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
+Ненумерованные (unordered)
+Для создания ненумерованного списка нужно поставить перед каждым пунктом звёздочку *, дефис - или плюс +.
+* Первый пункт
+* Второй пункт
+* Третий пункт
+- Первый пункт
+- Второй пункт
+- Третий пункт
++ Первый пункт
++ Второй пункт
++ Третий пункт
 
-Let's rename \*our-new-project\* to \*our-old-project\*.
+Чекбоксы (checkboxes)
+Чтобы сделать чекбоксы, нужно использовать маркированный список, но между маркером и текстом поставить [x] для отмеченного пункта и [] — для неотмеченного.
+- [x] Отмеченный пункт
+- [ ] Неотмеченный пункт
 
-------
+1. Пункт
+	1. Подпункт
+		1. Подподпункт
 
-# Links
+- Пункт
+	- Подпункт
+		- Подподпункт
 
-[I'm an inline-style link](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+1. Пункт
+	- Подпункт
+		* Подподпункт
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
++ Пункт
+	1. Подпункт
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+- Пункт
+  - [x] Отмеченный подпункт
+  - [ ] Неотмеченный подпункт
+    1. Подподпункт
 
-[You can use numbers for reference-style link definitions][1]
+Другие элементы внутри списков
+1. Первый пункт
+	> Цитата внутри первого пункта
+1. Второй пункт
+ 	
+    Параграф внутри второго пункта
+1. Третий пункт
 
-Or leave it empty and use the [link text itself].
+Ссылки
+<https:///gitverse.ru>
 
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+Чтобы оформить ссылкой часть текста, используется такой синтаксис: [текст](ссылка).
 
-Some text to show that the reference links can follow later.
+[gitverse](https://gitverse.ru) без подсказки
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[gitverse](https://gitverse.ru "Всплывающая подсказка") с подсказкой
 
-------
+Ещё один способ оформить ссылку — справочный. Он работает как сноски в книгах: [текст][имя сноски]. При таком способе организации ссылок в конце документа нужно также написать и оформить саму сноску: [имя сноски]: ссылка
 
-# Images
+[gitverse][1]
 
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+[Сайт «Гитверса»][site]
 
-Reference-style:
-![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[1]: https://gitverse.ru "Всплывающая подсказка"
+[site]: https://gitverse.ru
 
-![Minion](https://octodex.github.com/images/minion.png)
+## Картинки (images)
+![Изображение](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown")
 
-------
+## Вставка кода (code)
+Функция `print (x)` выводит содержимое переменной ```x```.
 
-# Footnotes
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-------
-
-# Code and Syntax Highlighting
-
-
-`code` - выделение текста как код `
-
-``code`` - выделение текста как код ``
-
-``` 
-выделение текста как код c ```
-
-import "fmt"
-
-func main() {
-	fmt.Println("Markdown")
+```
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
 }
 ```
 
-```bash
-mvn allure: serve
+	let x = 12;
+	let y = 6;
+	console.log(x + y);
+
+Если обрамлять код тремя обратными апострофами, то после первой тройки можно указать язык программирования — тогда Markdown правильно подсветит элементы кода.
+
+```python
+if x > 0:
+	print (x)
+else:
+	print ('Hello, World!')
 ```
 
-```css
-@font-face {
-  font-family: Chunkfive; src: url('Chunkfive.otf');
-}
-
-body, .usertext {
-  color: #F0F0F0; background: #600;
-  font-family: Chunkfive, sans;
-}
-
-@import url(print.css);
-@media print {
-  a[href^=http]::after {
-    content: attr(href)
-  }
+```c
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
 }
 ```
 
-``` go 
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Markdown")
-}
-``` 
-
-```php
-require_once 'Zend/Uri/Http.php';
-
-namespace Location\Web;
-
-interface Factory
-{
-    static function _factory();
-}
-
-abstract class URI extends BaseURI implements Factory
-{
-    abstract function test();
-
-    public static $st1 = 1;
-    const ME = "Yo";
-    var $list = NULL;
-    private $var;
-
-    /**
-     * Returns a URI
-     *
-     * @return URI
-     */
-    static public function _factory($stats = array(), $uri = 'http')
-    {
-        echo __METHOD__;
-        $uri = explode(':', $uri, 0b10);
-        $schemeSpecific = isset($uri[1]) ? $uri[1] : '';
-        $desc = 'Multi
-line description';
-
-        // Security check
-        if (!ctype_alnum($scheme)) {
-            throw new Zend_Uri_Exception('Illegal scheme');
-        }
-
-        $this->var = 0 - self::$st;
-        $this->list = list(Array("1"=> 2, 2=>self::ME, 3 => \Location\Web\URI::class));
-
-        return [
-            'uri'   => $uri,
-            'value' => null,
-        ];
-    }
-}
-
-echo URI::ME . URI::$st1;
-
-__halt_compiler () ; datahere
-datahere
-datahere */
-datahere
+```javascript
+let x = 12;
+let y = 6;
+console.log(x + y);
 ```
+## Таблицы (tables)
+|Столбец 1|Столбец 2|Столбец 3|
+|-|--------|---|
+|Длинная запись в первом столбце|Запись в столбце 2|Запись в столбце 3|
+|Кртк зпс| |Слева нет записи|
 
-------
-
-# Tables
+|Столбец 1 будет выравнен по левому краю в этой таблице|Столбец 2 будет выравнен по центру краю в этой таблице|Столбец 3 будет выравнен по правому краю в этой таблице|
+|:-|:-:|-:|
+|Равнение по левому краю|Равнение по центру|Равнение по правому краю|
+|Запись|Запись|Запись|
 
 Colons can be used to align columns.
 
@@ -361,7 +287,10 @@ db_verifier=# \i db_verifier.sql
 
 ------
 
-# Blockquotes
+## Экранирование (escaping characters)
+Вот список символов, которые нужно экранировать: \`*_{}[]<>()#+-.! |. Делать это постоянно необязательно — достаточно ставить экран только в тех случаях, когда Markdown может воспринять эти символы как служебные.
+
+# Blockquotes - Блоковые кавычки
 
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
@@ -376,7 +305,7 @@ Quote break.
 
 ------
 
-# Inline HTML
+# Inline HTML - Встроенный HTML
 
 <dl>
   <dt>Definition list</dt>
@@ -551,3 +480,8 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 ## <a id="title1">Заголовок 1</a>
 
 Какой-то контент
+
+
+
+
+
